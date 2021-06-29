@@ -1,0 +1,127 @@
+
+
+.product-list{
+  margin-bottom: 35px;
+  gap: 20px;
+}
+
+/* ProductItemsList */
+.product-items-list {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 20px;
+}
+
+.product-item{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.product-item-image {
+	background: var(--border-line);
+  width: 100%;
+  height: 457px;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-item-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.abs-top-left {
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+}
+
+.product-cart-btn {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	transition: 0.2s ease;
+	-webkit-transition: 0.2s ease;
+}
+
+.product-item-image:hover .product-cart-btn {
+	bottom: 0px;
+	left: 0;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+/* Pagination */
+.paginationHolder {
+	list-style: none;
+	width: 80%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paginationHolder a {
+	padding: 10px;
+	margin: 2px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: var(--paginate-disabled);
+	cursor: pointer;
+}
+
+.paginationActive a {
+	cursor: default;
+	pointer-events: none;
+	color: var(--dark-back);
+}
+
+.prevBtn,
+.nextBtn {
+	background-image: url(../ico/carret-down.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.prevHolder {
+	transform: rotate(90deg);
+}
+
+.nextHolder {
+	transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 999px) {
+	.product-list {
+		display: block;
+		position: relative;
+	}
+	
+	.product-list-category {
+		width: 95% !important;
+		max-width: 300px !important;
+		background: var(--white-color);
+		box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.3);
+		padding: 30px 10px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 3;
+	}
+
+	.product-items-list {
+		max-width: 350px;
+		margin: auto;
+		grid-template-columns: 1fr;
+	}
+
+	.product-cart-btn {
+		bottom: 0px;
+		left: 0;
+	}
+}

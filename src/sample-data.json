@@ -1,0 +1,362 @@
+{
+  "products": [
+    {
+      "name": "Bench In Forest",
+      "category": "people",
+      "price": 3.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "alt": "Bench In Forest"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Cucumber and Carrot Salad",
+      "category": "food",
+      "price": 93.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Cucumber and Carrot Salad"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Ponyo Sakana",
+      "category": "food",
+      "price": 77.55,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3662130/pexels-photo-3662130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Ponyo Sakana"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Hamburger and Chips",
+      "category": "food",
+      "price": 9.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Hamburger and Chips"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Japanese Soup",
+      "category": "food",
+      "price": 39.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3662103/pexels-photo-3662103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Japanese Soup"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Sliced Bread with Salad",
+      "category": "food",
+      "price": 13.99,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Sliced Bread with Salad"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Kittens On Grass",
+      "category": "pets",
+      "price": 93.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Kittens On Grass"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Grilled Barbecue",
+      "category": "food",
+      "price": 55,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Grilled Barbecue"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Huskeys Driving Sled",
+      "category": "pets",
+      "price": 250,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/60050/huskies-husky-blue-eye-dog-60050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Huskeys Driving Sled"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Tangerine",
+      "category": "food",
+      "price": 25,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/327098/pexels-photo-327098.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Tangerine"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "London City",
+      "category": "cities",
+      "price": 140,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "London City"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Assorted Sliced Fruits",
+      "category": "food",
+      "price": 27,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Assorted Sliced Fruits"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Bunnies Eating Grass",
+      "category": "pets",
+      "price": 85,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/33152/european-rabbits-bunnies-grass-wildlife.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Bunnies Eating Grass"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "New York City",
+      "category": "cities",
+      "price": 93.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2190283/pexels-photo-2190283.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "New York City"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Person Walking Between Green Forest Trees",
+      "category": "nature",
+      "price": 220,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Person Walking Between Green Forest Trees"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Pod of Dolphins",
+      "category": "nature",
+      "price": 280,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Pod of Dolphins"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Shanghai City",
+      "category": "cities",
+      "price": 93.89,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/275247/pexels-photo-275247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Shanghai City"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Happy Ladies",
+      "category": "people",
+      "price": 100,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/936048/pexels-photo-936048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Happy Ladies"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Women At The Beach",
+      "category": "people",
+      "price": 12,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/7148408/pexels-photo-7148408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Women At The Beach"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Chefs In The Kitchen",
+      "category": "people",
+      "price": 45,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/763934/pexels-photo-763934.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Chefs In The Kitchen"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Harmony With Unity",
+      "category": "people",
+      "price": 18,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1206059/pexels-photo-1206059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Harmony With Unity"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Architecture Beach Bridge",
+      "category": "landmarks",
+      "price": 101,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://images.pexels.com/photos/262347/pexels-photo-262347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Architecture Beach Bridge"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Eiffel Tower",
+      "category": "landmarks",
+      "price": 101,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "alt": "Eiffel Tower"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Statue of Liberty",
+      "category": "landmarks",
+      "price": 118,
+      "currency": "USD",
+      "dimmentions": {
+        "width": 1020,
+        "height": 1020
+      },
+      "image": {
+        "src": "https://images.pexels.com/photos/356844/pexels-photo-356844.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Statue of Liberty"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": null
+    },
+    {
+      "name": "Samurai King Restling",
+      "category": "pets",
+      "price": 101,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1198802/pexels-photo-1198802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Samurai King Restling"
+      },
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": {
+          "width": 2250,
+          "height": 1500
+        },
+        "size": 15360,
+        "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely",
+        "recommendations": [
+          {
+            "src": "https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+            "alt": "Eiffel Tower"
+          },
+          {
+            "src": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "alt": "Assorted Sliced Fruits"
+          },
+          {
+            "src": "https://images.pexels.com/photos/33152/european-rabbits-bunnies-grass-wildlife.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+            "alt": "Bunnies Eating Grass"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+:root {
+  --border-line: #e4e4e4;
+  --dark-back: #000000;
+  --white-color: #ffffff;
+	--paginate-disabled: #b4b4b4;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Archivo;
+	outline: none;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.centroid {
+  max-width: 1276px;
+  margin: auto;
+}
+
+.centroid-500 {
+  max-width: 500px;
+}
+
+.pad-x-20 {
+  padding: 0 20px;
+}
+
+.pad-y-10 {
+  padding: 10px 0;
+}
+
+.pad-y-15 {
+	padding-bottom: 15px;
+}
+
+.pad-y-7 {
+	padding-bottom: 7px;
+}
+
+.heavy-text {
+	font-weight: 700;
+}
+
+.light-text {
+	opacity: 0.7;
+}
+
+.light-50 {
+	opacity: 0.5;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.flex {
+  display: flex;
+  position: relative;
+}
+
+.hidebx {
+	display: none !important;
+}
+
+
+/* Product Nav */
+.product-nav {
+  margin-bottom: 15px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-line);
+  padding: 14px 0;
+}
+
+.product-cart {
+  align-self: center;
+  position: relative;
+}
+
+.nav-cart-icon {
+  height: 34px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.nav-cart-counter {
+  display: table;
+  padding: 2px 5px;
+  background: var(--dark-back);
+  color: var(--white-color);
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+/* Cart bag */
+.product-cart-bag {
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  top: 55px;
+  right: 0;
+	z-index: 3;
+	background: var(--white-color);
+	border: 1px solid var(--border-line);
+	padding: 10px;
+}
+
+.close-btn {
+	width: 18px;
+	height: 18px;
+	display: table;
+	float: right;
+	margin-bottom: 5px;
+	background-image: url(../ico/close.svg);
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.clr-fix {
+	clear: both;
+}
+
+.product-bag-tile {
+	padding-bottom: 7px;
+	border-bottom: 1px solid var(--border-line);
+	margin-bottom: 10px;
+}
+
+.product-bag-info {
+  flex: 2;
+}
+
+.product-bag-name {
+	font-size: 14px;
+}
+
+.product-bag-image-box {
+	flex: 1;
+  padding-left: 15px;
+}
+
+.product-bag-image-box img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+	width: 100%;
+	border: 1px solid var(--dark-back);
+	padding: 10px;
+	background: var(--dark-back);
+	color: var(--white-color);
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.btn-transp-back {
+	background: var(--white-color);
+	color: var(--dark-back);
+}
